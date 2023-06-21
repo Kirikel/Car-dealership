@@ -5,23 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     color: #FFF;
     font: 16px/28px 'Be Vietnam Pro', Arial, Helvetica, sans-serif;
     background-color: #000;
 }
+
 a {
     color: inherit;
     text-decoration: none;
     transition: .4s;
 }
+
 ul li {
     list-style: none;
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
 }
+
 button {
     display: block;
     border: none;
@@ -30,6 +35,7 @@ button {
     cursor: pointer;
     transition: .4s;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -72,6 +78,7 @@ button {
     align-items: center;
     font-weight: 600;
 }
+
 .title-section {
     margin-bottom: 40px;
     font-size: 52px;
@@ -79,10 +86,12 @@ button {
     letter-spacing: 0.6px;
     text-align: center;
 }
+
 .header-logo_img,.footer_about-img{
     width: 48px;
     height: 48px;
 }
+
 .nav-main{
     margin-left: auto;
 }
@@ -92,6 +101,7 @@ button {
     gap: 48px;
     margin-right: 72px;
 }
+
 .nav-main_link:hover{
     color: #EE8313 ;
 }
@@ -125,13 +135,16 @@ button {
     gap: 35px;
     margin-bottom: 40px;
 }
+
 .banner-features_text{
     font-weight: 600;
     line-height: 24px;
 }
+
 .banner-features_text:first-child{
     margin-right: 40px;
 }
+
 .banner-features_text_strong{
     margin-right: 16px;
     font-weight: 700;
